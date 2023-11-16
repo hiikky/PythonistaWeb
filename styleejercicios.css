@@ -1,0 +1,92 @@
+/* nav */
+
+.nav {
+    --padding-container: 0;
+    height: 9%;
+    display: flex;
+    align-items: center;
+}
+
+.nav__title {
+    font-size: 30;
+    color: #e7e7c1e5;
+}
+
+.nav__link {
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content;
+    gap: 2em;
+}
+
+.nav__items {
+    list-style: none;
+}
+
+.nav__links {
+    color: #e7e7c1e5;
+    text-decoration: none;
+}
+
+.nav__menu {
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+
+.nav__img {
+    display: block;
+    width: 30px;
+}
+
+.nav__close {
+    display: var(--show, none);
+}
+header {
+    border-bottom: 1px solid #ccc; 
+}
+
+/* menu aside */
+
+aside .menu {
+    /*width: 200px;*/   
+    background-color: #333; 
+    color: white;
+    padding: 10px;
+}
+
+aside .menu a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+aside .menu a:hover{
+    color: violet;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* body y demas  */
+
+main {    
+    padding: 20px;
+}
+
+
+body{
+    background-image: linear-gradient(180deg, #4d2a858c 0%, #1102538c 100%), url(img/arbustos.jpg);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat;
+}
+
+.container{
+    background-color: black;
+}
+
